@@ -13,7 +13,7 @@ st.markdown("""
 st.header('Gráficos sobre la venta de autos')
 st.write('Selecciona el gráfico con la información que le gustaría consultar')
 
-car_data = pd.read_csv('vehicles_us(2).csv') # leer los datos
+car_data = pd.read_csv('vehicles_us (2).csv') # leer los datos
 
 hist_check_model = st.checkbox('Construir histograma de modelo de autos')
 if hist_check_model:
